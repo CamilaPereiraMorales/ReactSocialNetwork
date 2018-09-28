@@ -12,7 +12,7 @@ class NavbarC extends Component {
  logoutWithFirebase() {
   firebase.auth().signOut()
     .then(()=>{
-      console.log("Usuario finalizó su sesión");
+      // console.log("Usuario finalizó su sesión");
     })
     .catch((error)=>{
       console.log("Error de firebase > Código > "+error.code); 
@@ -27,8 +27,8 @@ class NavbarC extends Component {
           <NavItem divider />
           <NavItem href={process.env.PUBLIC_URL + '/Perfil'}><Icon>perm_identity</Icon></NavItem>
           <NavItem href={process.env.PUBLIC_URL + '/buscador'}><Icon>help_outline</Icon></NavItem>
-          <NavItem href={process.env.PUBLIC_URL + '/VistaMuro'}><Icon>chrome_reader_mode</Icon></NavItem>
-          <NavItem href={process.env.PUBLIC_URL + '/'}><Icon>chat</Icon></NavItem>
+          <NavItem href={process.env.PUBLIC_URL + '/muro'}><Icon>chrome_reader_mode</Icon></NavItem>
+          <NavItem href={process.env.PUBLIC_URL + '/muro'}><Icon>chat</Icon></NavItem>
           <NavItem onClick = {this.logoutWithFirebase.bind(this)} ><Icon>close</Icon></NavItem>
         </Navbar>
       </div>
