@@ -11,7 +11,7 @@ class Perfil extends Component{
 		return(
 			<div>
 				<Navbar/>
-				<Carrusel />
+				{/* <Carrusel /> */}
 				<Text />
 				<Username />
 			</div>

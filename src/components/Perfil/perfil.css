@@ -1,0 +1,10 @@
+.subtitulo  {
+  color: gray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+img {
+  height: 8em;
+}
