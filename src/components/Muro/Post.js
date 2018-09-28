@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Likes from './Likes';
-import { Row, Col, Button } from 'react-materialize';
+import { Row } from 'react-materialize';
 import './post.css';
 
 
