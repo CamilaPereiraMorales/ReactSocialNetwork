@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
-import Login from '../src/components/Login/Login';
 import Registro from './components/registro/Registro';
 import VistaMuro from './components/Muro/VistaMuro';
 import Perfil from '../src/components/Perfil/Perfil';
