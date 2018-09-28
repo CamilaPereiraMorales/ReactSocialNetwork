@@ -26,7 +26,7 @@ class NavbarC extends Component {
           {/* <NavItem onClick={() => console.log('test click')}>Getting started</NavItem*/}
           <NavItem divider />
           <NavItem href={process.env.PUBLIC_URL + '/Perfil'}><Icon>perm_identity</Icon></NavItem>
-          <NavItem href={process.env.PUBLIC_URL + '/'}><Icon>help_outline</Icon></NavItem>
+          <NavItem href={process.env.PUBLIC_URL + '/buscador'}><Icon>help_outline</Icon></NavItem>
           <NavItem href={process.env.PUBLIC_URL + '/VistaMuro'}><Icon>chrome_reader_mode</Icon></NavItem>
           <NavItem href={process.env.PUBLIC_URL + '/'}><Icon>chat</Icon></NavItem>
           <NavItem onClick = {this.logoutWithFirebase.bind(this)} ><Icon>close</Icon></NavItem>
