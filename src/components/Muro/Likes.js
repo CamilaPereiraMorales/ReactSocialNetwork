@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Icon } from 'react-materialize';
+import { Icon } from 'react-materialize';
 
 class SecondScreen extends Component {
   constructor() {
