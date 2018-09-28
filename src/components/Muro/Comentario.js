@@ -18,15 +18,15 @@ class Comentario extends Component {
   }
   render() {
     return (
-      <div className = "contenedorComentario">
+      <div>
         <Row>
-          <Col s={6}>
+          <div Col s={12}>
             <Post items={this.state.items} />
             <form onSubmit={this.handleSubmit}>
-              <textarea className = "comentario" onChange = {this.handleChange} value = {this.state.text} ></textarea>
+              <textarea onChange = {this.handleChange} value = {this.state.text} ></textarea>
               <Button floating large className='red' waves='light' icon='add'>{this.state.items.length + 1}</Button>
             </form>
-          </Col>
+          </div>
         </Row>
       </div>
     )

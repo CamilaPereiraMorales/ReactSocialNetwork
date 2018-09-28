@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Likes from './Likes';
 import { Row, Col, Button } from 'react-materialize';
+import './post.css';
 
 
 class Post extends Component {
@@ -9,11 +10,14 @@ class Post extends Component {
       <div>
         {this.props.items.map(item => (
           <Row>
-            <div Col s = {12}>
+            <div className = "post" Col s = {12}>
               <h6 key={item.id}>{item.text}</h6>
+            <div>
               < Likes/>
             </div>
-          </Row>
+
+          </div>
+        </Row>
         ))}
       </div>
     );

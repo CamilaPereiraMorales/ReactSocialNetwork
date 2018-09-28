@@ -1,11 +1,15 @@
-.contenedorComentario {
-  background-color: rgb(142, 228, 142);
-  padding: 2em;
-  display: flex;
-}
+.fondoMuro {
+  background-image: url('https://previews.123rf.com/images/woters/woters1611/woters161100022/65373160-mujer-o-ni%C3%B1a-en-ropa-casual-pasear-al-perro-de-la-raza-golden-retriever-.jpg');
+  width: auto;
+  height: 800px;
+  }
 
 .comentario {
-  flex-direction: column;
-  width: 20em;
-  height: 15em;
+  /* flex-direction: column; */
+  margin: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 30em;
+  height: 20em;
+  text-align: center;
 }

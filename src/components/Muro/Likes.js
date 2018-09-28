@@ -12,11 +12,10 @@ class SecondScreen extends Component {
   render() {
     return (
       <div>
-        <Button onClick={this.contadorLikes.bind(this)}>Likes<Icon left>star</Icon> {this.state.contador} </Button>
+        <a onClick={this.contadorLikes.bind(this)}><Icon left>favorite</Icon>Me gusta {this.state.contador} </a>
       </div>
     )
   }
-
   contadorLikes() {
     this.setState({
       contador: this.state.contador + 1
