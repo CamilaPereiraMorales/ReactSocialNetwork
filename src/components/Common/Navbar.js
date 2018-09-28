@@ -15,8 +15,8 @@ class NavbarC extends Component {
       console.log("Usuario finalizó su sesión");
     })
     .catch((error)=>{
-      console.log("Error de firebase > Código > "+error.code); //error.code nos mostrará el código de error para informarnos qué pasó
-      console.log("Error de firebase > Mensaje > "+error.message); //error.message nos mostrará el mensaje de firebase del mismo error
+      console.log("Error de firebase > Código > "+error.code); 
+      console.log("Error de firebase > Mensaje > "+error.message); 
     });
 }
   render() {
