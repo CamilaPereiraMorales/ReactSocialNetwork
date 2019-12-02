@@ -26,9 +26,9 @@ código para reusarlo (lo cuál es un gran valor per se), si no que adoptamos un
 El proyecto consiste en replicar uno de nuestros trabajos anteriores en este caso fue SocialNetwork la difilcutad esta vez es que debiamos 
 utilizar React.
 
-### proyecto original [social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
-### proyecto entregado[LitlePetSociety](https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html),
-### pryecto en React [LitlePetSociety]
+### Proyecto original [social-network](https://github.com/Laboratoria/curricula-js/tree/v2.x/projects/03-social-network),
+### Proyecto entregado[LitlePetSociety](https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html),
+### Proyecto en React [LitlePetSociety] (https://camilapereiramorales.github.io/ReactSocialNetwork/)
 
 
 

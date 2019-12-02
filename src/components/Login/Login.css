@@ -1,5 +1,5 @@
 body {
-  background-image:   url('https://i.imgur.com/qPfTJsO.jpg?1');
+  background-image: url('https://i.imgur.com/qPfTJsO.jpg?1');
   
 }
 
@@ -10,5 +10,9 @@ body {
   width: 30em;
   height: 39em;
   margin-left: 70%;
-  margin-top: 4%;
+  margin-top: 5%;
+}
+.registrationLink{
+  color: gray !important;
+  margin-top: 20px;
 }
