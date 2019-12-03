@@ -4,11 +4,13 @@
 }
 
 .contenedor {
-  background-color: rgba(234, 240, 240, 0.568);
-  margin: 0%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 0%;
+  background-color: rgba(229, 223, 230, 0.794);
+    text-align: center;
+    padding: 2em;
+    width: 30em;
+    height: 55em;
+    margin-left: 70%;
+    margin-top: 3%;
 }
 
 .formulario {
@@ -18,4 +20,8 @@
 
 .button {
   text-align: center;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  box-shadow: none;
 }

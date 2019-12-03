@@ -3,6 +3,7 @@ import {withRouter} from 'react-router-dom';
 import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
 import LoginGoogle from '../Login/LoginGoogle';
+import './SigninForm.css'
 
 
 
@@ -44,7 +45,7 @@ usuarioLogueado(event) {
         
           <div className = "button">
             <LoginGoogle/>  
-            <center><Button waves='light' onClick={this.usuarioLogueado}><Icon left>send</Icon>Log In </Button></center>
+            <center><Button className="buttonStyle" waves='light' onClick={this.usuarioLogueado}><Icon left>send</Icon>Log In </Button></center>
           </div>
       </div>
     )

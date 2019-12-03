@@ -11,11 +11,11 @@ const Login = () =>{
 	return (
 
 		<Router basename={process.env.PUBLIC_URL + '/'}>
-			<div className = "">
+			<div className = "containerBackground">
 			<div className = "containerLogin">
 				<Titulo titulo="Little Pet Society" />
 				<SignInForm />
-				<p className="registrationLink">Aún no tienes una cuenta? Registrate con Nosotros<a  href={process.env.PUBLIC_URL + '/registro'}>aqui</a></p>
+				<p className="registrationLink">Aún no tienes una cuenta? Registrate con Nosotros <a  href={process.env.PUBLIC_URL + '/registro'}>aqui</a></p>
 				
 				<Route path="/registro" component={Registro}></Route>   
 				</div>

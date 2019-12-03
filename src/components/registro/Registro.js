@@ -3,6 +3,7 @@ import Titulo from './Titulo';
 import style from './style.css';
 import Text from './Text';
 import Formulario from './Formulario';
+import './Registro.css'
 
 class Registro extends Component {
   constructor() {

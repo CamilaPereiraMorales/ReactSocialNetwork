@@ -21,7 +21,7 @@ render() {
 		<Row>
 			<Col s = {12}>
 				<div>
-					<Button onClick= {this.handleAuth.bind(this)}>LOGIN CON GOOGLE</Button>
+					<Button className="buttonStyle" onClick= {this.handleAuth.bind(this)}>LOGIN CON GOOGLE</Button>
 				</div>
 			</Col>
 		</Row>
